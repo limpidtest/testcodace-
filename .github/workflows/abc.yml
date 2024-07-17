@@ -11,7 +11,7 @@ jobs:
       pull-requests: write
       contents: read
     container:
-      image: codetyio/codety:0.02
+      image: codetyio/codety:0.002
   
     steps:
       
