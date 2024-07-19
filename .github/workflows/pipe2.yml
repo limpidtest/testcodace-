@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [ "**" ]
 jobs:
-  Codety_Static_Code_Analysis:
+  pipe2:
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
@@ -13,5 +13,5 @@ jobs:
     container:
       image: codetyio/codety:0.002
     steps:
-      - run: ls -ls
+      - run: ls -s
         
